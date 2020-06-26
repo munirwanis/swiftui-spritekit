@@ -84,10 +84,7 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             VStack(spacing: 0) {
-                LinearGradient(gradient: Gradient(colors: [Color.gray, Color.gray.opacity(0.8)]),
-                               startPoint: .top,
-                               endPoint: .bottom)
-                LinearGradient(gradient: Gradient(colors: [Color.gray.opacity(0.8), Color.gray]),
+                LinearGradient(gradient: Gradient(colors: [Color.gray, Color.gray.opacity(0.8), Color.gray]),
                                startPoint: .top,
                                endPoint: .bottom)
                 
@@ -97,24 +94,7 @@ struct ContentView: View {
                 SpriteView(scene: GameScene($currentDirection))
                     .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
                     .padding(50)
-                
-                Button(action: {}) {
-                    Circle()
-                        .frame(width: 50, height: 50)
-                        .foregroundColor(.red)
-                        .overlay(Circle()
-                                    .foregroundColor(.red)
-                                    .padding(10)
-                                    .shadow(color: Color.black.opacity(0.2), radius: 10, x: 10, y: 10)
-                                    .shadow(color: Color.white.opacity(0.7), radius: 10, x: -5, y: -5))
-                        .background(RoundedRectangle(cornerRadius: 10)
-                                        .frame(width: 80, height: 80)
-                                        .foregroundColor(Color.black.opacity(0.4))
-                                        .shadow(color: Color.black.opacity(0.2), radius: 10, x: 10, y: 10)
-                                        .shadow(color: Color.white.opacity(0.7), radius: 10, x: -5, y: -5))
-                }
-                .padding()
-                
+
                 VStack(spacing: 10) {
                     HStack {
                         Spacer()
@@ -144,6 +124,25 @@ struct ContentView: View {
             .shadow(color: Color.black.opacity(0.2), radius: 10, x: 10, y: 10)
             .shadow(color: Color.white.opacity(0.7), radius: 10, x: -5, y: -5)
         }
+    }
+    
+    func redButtonForTesting() -> some View {
+        Button(action: {}) {
+            Circle()
+                .frame(width: 50, height: 50)
+                .foregroundColor(.red)
+                .overlay(Circle()
+                            .foregroundColor(.red)
+                            .padding(10)
+                            .shadow(color: Color.black.opacity(0.2), radius: 10, x: 10, y: 10)
+                            .shadow(color: Color.white.opacity(0.7), radius: 10, x: -5, y: -5))
+                .background(RoundedRectangle(cornerRadius: 10)
+                                .frame(width: 80, height: 80)
+                                .foregroundColor(Color.black.opacity(0.4))
+                                .shadow(color: Color.black.opacity(0.2), radius: 10, x: 10, y: 10)
+                                .shadow(color: Color.white.opacity(0.7), radius: 10, x: -5, y: -5))
+        }
+        .padding()
     }
 }
 

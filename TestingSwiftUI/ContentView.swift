@@ -83,12 +83,10 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-            VStack(spacing: 0) {
-                LinearGradient(gradient: Gradient(colors: [Color.gray, Color.gray.opacity(0.8), Color.gray]),
-                               startPoint: .top,
-                               endPoint: .bottom)
-                
-            }.edgesIgnoringSafeArea(.all)
+            LinearGradient(gradient: Gradient(colors: [Color.gray, Color.gray.opacity(0.8), Color.gray]),
+                           startPoint: .top,
+                           endPoint: .bottom)
+                .edgesIgnoringSafeArea(.all)
             
             VStack {
                 SpriteView(scene: GameScene($currentDirection))

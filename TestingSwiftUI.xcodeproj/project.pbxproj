@@ -13,6 +13,18 @@
 		A134049B24A1B574007F559F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A134049A24A1B574007F559F /* Preview Assets.xcassets */; };
 		A13404A624A1B574007F559F /* TestingSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13404A524A1B574007F559F /* TestingSwiftUITests.swift */; };
 		A13404B124A1B574007F559F /* TestingSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13404B024A1B574007F559F /* TestingSwiftUIUITests.swift */; };
+		DDE5BC662C49129500A0D286 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE5BC622C49129500A0D286 /* Player.swift */; };
+		DDE5BC672C49129500A0D286 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE5BC622C49129500A0D286 /* Player.swift */; };
+		DDE5BC682C49129500A0D286 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE5BC622C49129500A0D286 /* Player.swift */; };
+		DDE5BC692C49129500A0D286 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE5BC632C49129500A0D286 /* GameScene.swift */; };
+		DDE5BC6A2C49129500A0D286 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE5BC632C49129500A0D286 /* GameScene.swift */; };
+		DDE5BC6B2C49129500A0D286 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE5BC632C49129500A0D286 /* GameScene.swift */; };
+		DDE5BC6C2C49129500A0D286 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE5BC642C49129500A0D286 /* Food.swift */; };
+		DDE5BC6D2C49129500A0D286 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE5BC642C49129500A0D286 /* Food.swift */; };
+		DDE5BC6E2C49129500A0D286 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE5BC642C49129500A0D286 /* Food.swift */; };
+		DDE5BC6F2C49129500A0D286 /* PlayerDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE5BC652C49129500A0D286 /* PlayerDirection.swift */; };
+		DDE5BC702C49129500A0D286 /* PlayerDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE5BC652C49129500A0D286 /* PlayerDirection.swift */; };
+		DDE5BC712C49129500A0D286 /* PlayerDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE5BC652C49129500A0D286 /* PlayerDirection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +57,10 @@
 		A13404AC24A1B574007F559F /* TestingSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A13404B024A1B574007F559F /* TestingSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingSwiftUIUITests.swift; sourceTree = "<group>"; };
 		A13404B224A1B574007F559F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE5BC622C49129500A0D286 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		DDE5BC632C49129500A0D286 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DDE5BC642C49129500A0D286 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		DDE5BC652C49129500A0D286 /* PlayerDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDirection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +113,10 @@
 			children = (
 				A134049324A1B572007F559F /* TestingSwiftUIApp.swift */,
 				A134049524A1B572007F559F /* ContentView.swift */,
+				DDE5BC642C49129500A0D286 /* Food.swift */,
+				DDE5BC632C49129500A0D286 /* GameScene.swift */,
+				DDE5BC622C49129500A0D286 /* Player.swift */,
+				DDE5BC652C49129500A0D286 /* PlayerDirection.swift */,
 				A134049724A1B574007F559F /* Assets.xcassets */,
 				A134049C24A1B574007F559F /* Info.plist */,
 				A134049924A1B574007F559F /* Preview Content */,
@@ -260,6 +280,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A134049624A1B572007F559F /* ContentView.swift in Sources */,
+				DDE5BC662C49129500A0D286 /* Player.swift in Sources */,
+				DDE5BC6F2C49129500A0D286 /* PlayerDirection.swift in Sources */,
+				DDE5BC6C2C49129500A0D286 /* Food.swift in Sources */,
+				DDE5BC692C49129500A0D286 /* GameScene.swift in Sources */,
 				A134049424A1B572007F559F /* TestingSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +292,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDE5BC6A2C49129500A0D286 /* GameScene.swift in Sources */,
+				DDE5BC6D2C49129500A0D286 /* Food.swift in Sources */,
+				DDE5BC672C49129500A0D286 /* Player.swift in Sources */,
+				DDE5BC702C49129500A0D286 /* PlayerDirection.swift in Sources */,
 				A13404A624A1B574007F559F /* TestingSwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +304,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDE5BC6B2C49129500A0D286 /* GameScene.swift in Sources */,
+				DDE5BC6E2C49129500A0D286 /* Food.swift in Sources */,
+				DDE5BC682C49129500A0D286 /* Player.swift in Sources */,
+				DDE5BC712C49129500A0D286 /* PlayerDirection.swift in Sources */,
 				A13404B124A1B574007F559F /* TestingSwiftUIUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,7 +454,7 @@
 				DEVELOPMENT_TEAM = H4K48S49BZ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TestingSwiftUI/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,7 +476,7 @@
 				DEVELOPMENT_TEAM = H4K48S49BZ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TestingSwiftUI/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,7 +496,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H4K48S49BZ;
 				INFOPLIST_FILE = TestingSwiftUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,7 +518,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H4K48S49BZ;
 				INFOPLIST_FILE = TestingSwiftUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -507,6 +539,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H4K48S49BZ;
 				INFOPLIST_FILE = TestingSwiftUIUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -527,6 +560,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H4K48S49BZ;
 				INFOPLIST_FILE = TestingSwiftUIUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
